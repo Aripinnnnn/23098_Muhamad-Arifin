@@ -13,6 +13,7 @@ public class MahasiswaBeraksi {
     /**
      * @param args the command line arguments
      */
+    //Membuat objek mhs dan memanggil 3 method yang telah dibuat 
     public static void main(String[] args) {
         Mahasiswa mhs = new Mahasiswa();
         mhs.membaca();

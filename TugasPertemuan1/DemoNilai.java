@@ -10,7 +10,7 @@ package TugasPertemuan1;
  */
 public class DemoNilai {
     public static void main(String[] args) {
-     Nilai nilaimhs = new Nilai("1234567", "John Doe", 85, 90, 88, 92);
+     Nilai nilaimhs = new Nilai("1234567", "wiwid", 85, 90, 88, 92);
     nilaimhs.CetakNilai();
     }
 }

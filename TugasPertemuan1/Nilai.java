@@ -19,7 +19,7 @@ public class Nilai {
     double tugas;
     double uts;
     double uas;
-    Nilai(String nim, String nama, double absen,double tugas,double uts,double uas){
+    public Nilai(String nim, String nama, double absen,double tugas,double uts,double uas){
         this.nim = nim;
         this.nama = nama;
         this.absen = absen;
