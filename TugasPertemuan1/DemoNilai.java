@@ -8,6 +8,7 @@ package TugasPertemuan1;
  *
  * @author Asus
  */
+//Membuat class DemoNilai, membuat objek nilaimhs yang berisi parameter untuk Nilai, kemudian memanggil method CetakNilai
 public class DemoNilai {
     public static void main(String[] args) {
      Nilai nilaimhs = new Nilai("1234567", "wiwid", 85, 90, 88, 92);
