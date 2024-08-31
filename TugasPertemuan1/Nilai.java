@@ -8,17 +8,15 @@ package TugasPertemuan1;
  *
  * @author Asus
  */
+//membuat class Nilai yang berisi variabel nilai
 public class Nilai {
-
-    /**
-     * @param args the command line arguments
-     */
     String nim;
     String nama;
     double absen;
     double tugas;
     double uts;
     double uas;
+    //Membuat constructor nilai yang akan diisi pada DemoNilai
     public Nilai(String nim, String nama, double absen,double tugas,double uts,double uas){
         this.nim = nim;
         this.nama = nama;
@@ -27,9 +25,11 @@ public class Nilai {
         this.uts = uts;
         this.uas = uas;
     }
+    //Membuat method hitung untuk operasi pada nilainya
     public double hitung(){
         return (absen * 0.1) + (tugas * 0.2) + (uts * 0.3) + (uas * 0.4);
     }
+    //Membuat method cetaknilai untuk outputnya
     public void CetakNilai(){
         System.out.println ("NIM : "+nim);        
         System.out.println ("Nama : "+nama);
