@@ -14,7 +14,7 @@ public class DemoKonversiSuhu {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Membuat objek dengan nama konversi
+        //Membuat objek dengan nama konversi dan memanggil class KonveriSuhu2
         KonversiSuhu2 konversi = new KonversiSuhu2();
         //Memanggil method-method konversi dan mengisi parameternya
         System.out.println("12 Celcius = "+konversi.CelciusToFarenheit(12, 1.8)+" Farenheit");
